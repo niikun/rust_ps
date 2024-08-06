@@ -1,2 +1,2 @@
-# rust__ps
+# rust_ps
 rust programming specialization
