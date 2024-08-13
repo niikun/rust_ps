@@ -1,7 +1,9 @@
 // mod ex_if;
 // mod ex_while;
 // mod ex_loop;
-mod user_input;
+// mod user_input;
+mod ex_for;
+
 
 fn main() {
     // ex_if::run();
@@ -15,5 +17,6 @@ fn main() {
 
     // ex_loop::run();
 
-    user_input::run();    
+    // user_input::run();    
+    ex_for::rev_num();
 }
