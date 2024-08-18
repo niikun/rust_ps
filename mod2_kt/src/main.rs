@@ -5,7 +5,8 @@
 // mod ex_for;
 // mod ex_for2;
 // mod ex_enum;
-mod ex_match;
+// mod ex_match;
+mod hash_map;
 
 fn main() {
     // ex_if::run();
@@ -20,6 +21,7 @@ fn main() {
     // ex_for::rev_num();
     // ex_for2::run();
     // ex_enum::run();
-    ex_match::run();
+    // ex_match::run();
+    hash_map::run();
 
 }
