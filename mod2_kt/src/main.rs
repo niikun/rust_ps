@@ -6,7 +6,11 @@
 // mod ex_for2;
 // mod ex_enum;
 // mod ex_match;
-mod hash_map;
+// mod hash_map;
+// mod ex_array;
+// mod ex_vec;
+// mod car_struct;
+mod ex_fn;
 
 fn main() {
     // ex_if::run();
@@ -22,6 +26,9 @@ fn main() {
     // ex_for2::run();
     // ex_enum::run();
     // ex_match::run();
-    hash_map::run();
-
+    // hash_map::run();
+    // ex_array::run();
+    // ex_vec::run();
+    // car_struct::run();
+    ex_fn::run();
 }
