@@ -10,7 +10,12 @@
 // mod ex_array;
 // mod ex_vec;
 // mod car_struct;
-mod ex_fn;
+// mod ex_fn;
+// mod split_string;
+// mod ex_sum;
+// mod panic;
+mod file_open;
+
 
 fn main() {
     // ex_if::run();
@@ -30,5 +35,9 @@ fn main() {
     // ex_array::run();
     // ex_vec::run();
     // car_struct::run();
-    ex_fn::run();
+    // ex_fn::run();
+    // split_string::run();
+    // ex_sum::run();
+    // panic::run();
+    file_open::run()
 }
