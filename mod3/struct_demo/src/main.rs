@@ -12,7 +12,7 @@ impl Person{
             first_name,
             last_name,
             age,
-            contact : 1,
+            contact : 2,
         }
     }
 }
