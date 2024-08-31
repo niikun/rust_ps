@@ -1,35 +1,7 @@
-#[derive(Debug)]
-struct Person {
-    first_name:String,
-    last_name:String,
-    age:Option<u8>,
-    contact:u8,
-}
+// mod enum_vec_demo;
+mod enum_domo2;
 
-impl Person{
-    fn new(first_name:String,last_name:String,age:Option<u8>)->Person{
-        Person{
-            first_name,
-            last_name,
-            age,
-            contact : 2,
-        }
-    }
-}
-
-
-fn main(){
-    let p1 = Person{
-        first_name:String::from("John"),
-        last_name:String::from("Doe"),
-        age:Some(30),
-        contact:1,
-    };
-    let mut p2 = Person::new(String::from("Jane"),String::from("Doe"),None);
-    println!("{:?}",p1);
-    println!("{:?}",p2);
-    p2.contact = 2;
-    println!("{:?}",p2);
-    p2.first_name = String::from("Aki");
-    println!("{:?}",p2);
+fn main() {
+    // enum_vec_demo::run();
+    enum_domo2::run();
 }
