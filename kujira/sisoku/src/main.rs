@@ -1,6 +1,7 @@
-mod question1;
-
+mod kuku;
+// mod question1;
 
 fn main() {
-    question1::run();
+    // question1::run();
+    kuku::run();
 }
